@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
-
+//camera import
 List<CameraDescription> cameras;
 Future<Null> main() async {
   cameras = await availableCameras();
