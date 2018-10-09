@@ -174,6 +174,6 @@ class _CameraScreenState extends State<CameraScreen> {
       aspectRatio: 100.0,
       child: new CameraPreview(controller),
     );
-//  return new CameraPreview(controller);
+//  //return new CameraPreview(controller);
   }
 }
